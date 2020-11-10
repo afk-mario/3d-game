@@ -20,6 +20,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "look",
+                    "type": "Value",
+                    "id": "b10534e5-ff58-482b-a768-1b70c4b33388",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -200,7 +208,7 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "left",
+                    "name": "right",
                     "id": "2a1ae49b-de3a-47bc-a67e-8432b1aa49f0",
                     "path": "<Keyboard>/d",
                     "interactions": "",
@@ -211,7 +219,7 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "right",
+                    "name": "left",
                     "id": "419cc9e4-2656-497c-8b7c-922c3e63262e",
                     "path": "<Keyboard>/a",
                     "interactions": "",
@@ -220,6 +228,17 @@
                     "action": "move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "4ad1abf0-7e32-4059-a197-49a55cbfacc6",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
