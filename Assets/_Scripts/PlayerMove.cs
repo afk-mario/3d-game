@@ -42,10 +42,6 @@ public class PlayerMove : MonoBehaviour {
         }
     }
 
-    public void HandleInteract (InputAction.CallbackContext context) {
-        Debug.Log ("Player interact");
-    }
-
     public void HandleMove (InputAction.CallbackContext context) {
         _inputVector = context.ReadValue<Vector2> ();
     }
